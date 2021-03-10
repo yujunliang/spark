@@ -136,7 +136,7 @@
     <chill.version>0.5.0</chill.version>
     <codahale.metrics.version>3.0.0</codahale.metrics.version>
     <avro.version>1.7.6</avro.version>
-    <avro.mapred.classifier></avro.mapred.classifier>
+    <avro.mapred.classifier/>
     <jets3t.version>0.7.1</jets3t.version>
     <aws.java.sdk.version>1.8.3</aws.java.sdk.version>
     <aws.kinesis.client.version>1.1.0</aws.kinesis.client.version>
@@ -145,7 +145,7 @@
     <test_classpath_file>${project.build.directory}/spark-test-classpath.txt</test_classpath_file>
     <PermGen>64m</PermGen>
     <MaxPermGen>512m</MaxPermGen>
-    <scala.version>2.10.4</scala.version>
+    <scala.version>2.13.4</scala.version>
     <scala.binary.version>2.10</scala.binary.version>
     <jline.version>${scala.version}</jline.version>
     <jline.groupid>org.scala-lang</jline.groupid>
@@ -1412,7 +1412,7 @@
         <property><name>!scala-2.11</name></property>
       </activation>
       <properties>
-        <scala.version>2.10.4</scala.version>
+        <scala.version>2.13.4</scala.version>
         <scala.binary.version>2.10</scala.binary.version>
         <jline.version>${scala.version}</jline.version>
         <jline.groupid>org.scala-lang</jline.groupid>
@@ -1428,7 +1428,7 @@
         <property><name>scala-2.11</name></property>
       </activation>
       <properties>
-        <scala.version>2.11.2</scala.version>
+        <scala.version>2.13.4</scala.version>
         <scala.binary.version>2.11</scala.binary.version>
         <jline.version>2.12</jline.version>
         <jline.groupid>jline</jline.groupid>
