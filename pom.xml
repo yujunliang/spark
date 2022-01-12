@@ -126,7 +126,7 @@
     <flume.version>1.4.0</flume.version>
     <zookeeper.version>3.4.5</zookeeper.version>
     <!-- Version used in Maven Hive dependency -->
-    <hive.version>0.13.1a</hive.version>
+    <hive.version>1.2.1.spark2</hive.version>
     <!-- Version used for internal directory structure -->
     <hive.version.short>0.13.1</hive.version.short>
     <derby.version>10.10.1.1</derby.version>
@@ -136,7 +136,7 @@
     <chill.version>0.5.0</chill.version>
     <codahale.metrics.version>3.0.0</codahale.metrics.version>
     <avro.version>1.7.6</avro.version>
-    <avro.mapred.classifier></avro.mapred.classifier>
+    <avro.mapred.classifier/>
     <jets3t.version>0.7.1</jets3t.version>
     <aws.java.sdk.version>1.8.3</aws.java.sdk.version>
     <aws.kinesis.client.version>1.1.0</aws.kinesis.client.version>
@@ -1392,7 +1392,7 @@
     <profile>
       <id>hive-0.12.0</id>
       <properties>
-        <hive.version>0.12.0-protobuf-2.5</hive.version>
+        <hive.version>1.2.1.spark2</hive.version>
         <hive.version.short>0.12.0</hive.version.short>
         <derby.version>10.4.2.0</derby.version>
       </properties>
@@ -1400,7 +1400,7 @@
     <profile>
       <id>hive-0.13.1</id>
       <properties>
-        <hive.version>0.13.1a</hive.version>
+        <hive.version>1.2.1.spark2</hive.version>
         <hive.version.short>0.13.1</hive.version.short>
         <derby.version>10.10.1.1</derby.version>
       </properties>
