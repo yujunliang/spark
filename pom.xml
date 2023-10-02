@@ -117,9 +117,9 @@
     <scala.macros.version>2.0.1</scala.macros.version>
     <mesos.version>0.18.1</mesos.version>
     <mesos.classifier>shaded-protobuf</mesos.classifier>
-    <slf4j.version>1.7.5</slf4j.version>
+    <slf4j.version>1.7.34</slf4j.version>
     <log4j.version>1.2.17</log4j.version>
-    <hadoop.version>1.0.4</hadoop.version>
+    <hadoop.version>2.2.0</hadoop.version>
     <protobuf.version>2.4.1</protobuf.version>
     <yarn.version>${hadoop.version}</yarn.version>
     <hbase.version>0.94.6</hbase.version>
@@ -136,8 +136,8 @@
     <chill.version>0.5.0</chill.version>
     <codahale.metrics.version>3.0.0</codahale.metrics.version>
     <avro.version>1.7.6</avro.version>
-    <avro.mapred.classifier></avro.mapred.classifier>
-    <jets3t.version>0.7.1</jets3t.version>
+    <avro.mapred.classifier/>
+    <jets3t.version>0.9.1</jets3t.version>
     <aws.java.sdk.version>1.8.3</aws.java.sdk.version>
     <aws.kinesis.client.version>1.1.0</aws.kinesis.client.version>
     <commons.httpclient.version>4.2.6</commons.httpclient.version>
@@ -567,7 +567,7 @@
       <dependency>
         <groupId>org.apache.curator</groupId>
         <artifactId>curator-recipes</artifactId>
-        <version>2.4.0</version>
+        <version>2.9.0</version>
         <exclusions>
           <exclusion>
             <groupId>org.jboss.netty</groupId>
@@ -1255,7 +1255,7 @@
         </dependency>
       </dependencies>
       <properties>
-        <hadoop.version>0.23.10</hadoop.version>
+        <hadoop.version>2.2.0</hadoop.version>
       </properties>
     </profile>
 
@@ -1271,9 +1271,9 @@
     <profile>
       <id>hadoop-2.3</id>
       <properties>
-        <hadoop.version>2.3.0</hadoop.version>
+        <hadoop.version>2.2.0</hadoop.version>
         <protobuf.version>2.5.0</protobuf.version>
-        <jets3t.version>0.9.0</jets3t.version>
+        <jets3t.version>0.9.1</jets3t.version>
         <commons.math3.version>3.1.1</commons.math3.version>
         <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
       </properties>
@@ -1282,9 +1282,9 @@
     <profile>
       <id>hadoop-2.4</id>
       <properties>
-        <hadoop.version>2.4.0</hadoop.version>
+        <hadoop.version>2.2.0</hadoop.version>
         <protobuf.version>2.5.0</protobuf.version>
-        <jets3t.version>0.9.0</jets3t.version>
+        <jets3t.version>0.9.1</jets3t.version>
         <commons.math3.version>3.1.1</commons.math3.version>
         <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
       </properties>
@@ -1301,7 +1301,7 @@
     <profile>
       <id>mapr3</id>
       <properties>
-        <hadoop.version>1.0.3-mapr-3.0.3</hadoop.version>
+        <hadoop.version>2.2.0</hadoop.version>
         <yarn.version>2.3.0-mapr-4.0.0-FCS</yarn.version>
         <hbase.version>0.94.17-mapr-1405</hbase.version>
         <zookeeper.version>3.4.5-mapr-1406</zookeeper.version>
@@ -1311,7 +1311,7 @@
     <profile>
       <id>mapr4</id>
       <properties>
-        <hadoop.version>2.3.0-mapr-4.0.0-FCS</hadoop.version>
+        <hadoop.version>2.2.0</hadoop.version>
         <yarn.version>2.3.0-mapr-4.0.0-FCS</yarn.version>
         <hbase.version>0.94.17-mapr-1405-4.0.0-FCS</hbase.version>
         <zookeeper.version>3.4.5-mapr-1406</zookeeper.version>
@@ -1320,7 +1320,7 @@
         <dependency>
           <groupId>org.apache.curator</groupId>
           <artifactId>curator-recipes</artifactId>
-          <version>2.4.0</version>
+          <version>2.9.0</version>
           <exclusions>
             <exclusion>
               <groupId>org.apache.zookeeper</groupId>
